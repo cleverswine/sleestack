@@ -32,8 +32,7 @@ namespace SleeStack.Views
             var msgCounts = new ObservableCollection<int> {10, 20, 30, 50, 100};
             MessageCountOptionsCombo.DataContext = msgCounts;
             MessageCountOptionsCombo.SelectedItem = _settings.MessageCount;
-            SlackAuthTokenTextBox.Text = string.IsNullOrWhiteSpace(_settings.SlackApiAuthToken)
-                ? "xoxp-2404162910-2405391908-2442253910-4a03af" : _settings.SlackApiAuthToken;
+            SlackAuthTokenTextBox.Text = _settings.SlackApiAuthToken;
         }
 
         private async void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
