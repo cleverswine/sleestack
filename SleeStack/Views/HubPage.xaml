@@ -1,0 +1,83 @@
+﻿<Page
+    x:Class="SleeStack.Views.HubPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SleeStack"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:SleeStack.ViewModels"
+    DataContext="{Binding Path=HubPageViewModel, Source={StaticResource ViewModelLocator}}"
+    d:DataContext="{Binding Source={d:DesignData Source=/Fakes/SampleSlackData.json, Type=data:HubPageViewModel}}"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="HubSectionHeaderTemplate">
+            <TextBlock Margin="0,0,0,-18" Text="{Binding}"/>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:Uid="Settings" Icon="Setting" Label="Settings" Tapped="Settings_OnTapped" Click="Settings_OnClick" />
+                <AppBarButton x:Uid="Refresh" Icon="Sync" Label="Refresh" Tapped="Refresh_OnTapped" Click="Refresh_OnClick" />
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Uid="SignOut" Icon="Setting" Label="Sign Out" Tapped="SignOut_Tapped" Click="SignOut_Clicked" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid x:Name="LayoutRoot">
+        <Hub x:Name="Hub" x:Uid="Hub" Header="SleeStack" Background="{ThemeResource HubBackgroundImageBrush}">
+            <HubSection x:Uid="ChannelsHubSection" Header="MY CHANNELS" DataContext="{Binding}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                <DataTemplate>
+                    <ListView
+                        ItemsSource="{Binding Channels}"
+                        IsItemClickEnabled="True"
+                        ItemClick="Channel_ItemClick"
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,6">
+                                    <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
+                                    <TextBlock Text="{Binding SubTitle}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" 
+                                              TextWrapping="Wrap" Foreground="{ThemeResource PhoneMidBrush}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </DataTemplate>
+            </HubSection>
+
+            <HubSection x:Uid="ImChannelsHubSection" Header="TEAM" DataContext="{Binding ImChannels}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                <DataTemplate>
+                    <ListView
+                        ItemsSource="{Binding}"
+                        IsItemClickEnabled="True"
+                        ItemClick="Im_ItemClick"
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Margin="0,9.5,0,0" Grid.Column="0" HorizontalAlignment="Left">
+                                        <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Height="52" Width="52"/>
+                                    </Border>
+                                    <StackPanel Grid.Column="1" Margin="14.5,0,0,0">
+                                        <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
+                                        <TextBlock Text="{Binding SubTitle}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="{ThemeResource PhoneMidBrush}" />
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</Page>

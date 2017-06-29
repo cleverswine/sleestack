@@ -1,0 +1,41 @@
+﻿<ContentDialog
+    x:Class="SleeStack.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SleeStack.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Settings"
+    PrimaryButtonText="Save"  
+    SecondaryButtonText="Cancel"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        
+        <!--<Grid DataContext="{Binding Self}" Margin="0,12,0,28">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Margin="0,0,0,0" Grid.Column="0" HorizontalAlignment="Left">
+                <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Height="32" Width="32"/>
+            </Border>
+            <StackPanel Grid.Column="1" Margin="8,0,0,0">
+                <TextBlock Text="Logged in as" Foreground="{ThemeResource PhoneMidBrush}"/>
+                <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" />
+            </StackPanel>
+        </Grid>-->
+
+        <TextBox Name="SlackAuthTokenTextBox" Header="Slack Authorization Token" />
+        <ComboBox Header="Number of Messages to Download" Name="MessageCountOptionsCombo" ItemsSource="{Binding}" />
+        <!-- Content body -->
+        <TextBlock Name="ErrorBody" Style="{StaticResource MessageDialogContentStyle}" Foreground="Red"
+                   TextWrapping="Wrap" Visibility="Collapsed">
+            <TextBlock.Text>
+                The Slack Authorization Token is not valid. Please enter a valid token and try again.
+            </TextBlock.Text>
+        </TextBlock>
+    </StackPanel>
+</ContentDialog>

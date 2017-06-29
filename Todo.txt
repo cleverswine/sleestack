@@ -1,0 +1,15 @@
+Update Command Bar based on Logged In/Logged Out
+Disable refresh button when Busy
+Show busy indicator next to each channel while fetching unread count
+Change Hub background to use Slack/SleeStack logo?
+Refactor View Models to better transform Slack API objects to View Model objects
+Use MVVM for settings page
+Put Self on Settings page?
+Store channels and IMs in storage and only get from server on refresh
+Instead of [NEW!] on messages, make them bold
+
+Add "load more" command button to load more message history
+Sort IM channels by frequently contacted (save count of messages sent/recieved in app storage?)
+Show unread count for IM channels (get IM history - count=1 - for each and check timestamp against last seen?)
+Add unit tests
+App lifecycle (shuts down on minimize...)

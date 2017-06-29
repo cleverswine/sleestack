@@ -1,0 +1,42 @@
+﻿{
+    "Self": {
+        "Title": "Kevin Noone",
+        "SubTitle": "This is my self",
+        "ImagePath": "Assets/MediumGray.png"
+    },
+    "Channels": [
+        {
+            "Title": "Channel 1",
+            "SubTitle": "This is channel 1 and I have a really long description"
+        },
+        {
+            "Title": "Channel 2",
+            "SubTitle": "This is channel 2"
+        }
+    ],
+    "ImChannels": [
+        {
+            "Title": "IM Channel 1",
+            "SubTitle": "This is channel 1",
+            "ImagePath": "Assets/MediumGray.png"
+        },
+        {
+            "Title": "IM Channel 2",
+            "SubTitle": "This is channel 2",
+            "ImagePath": "Assets/MediumGray.png"
+        }
+    ],
+    "Messages": [
+        {
+            "Title": "Message 1",
+            "SubTitle": "This is message 1",
+            "Content": "This is the message body"
+        },
+        {
+            "Title": "Message 2",
+            "SubTitle": "This is message 2",
+            "Content": "This is the message body"
+        }
+    ],
+    "ChannelName": "#test_channel"
+}

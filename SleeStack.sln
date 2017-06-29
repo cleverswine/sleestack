@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleeStack", "SleeStack\SleeStack.csproj", "{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slack", "Slack\Slack.csproj", "{BC7F5910-007D-40F7-9191-57EA956B7939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{70DFA8AA-285E-4A29-A51D-4A93E02E253A}"
+	ProjectSection(SolutionItems) = preProject
+		Todo.txt = Todo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "json", "json", "{873E301C-CE5A-4908-9EAE-A3A990207233}"
+	ProjectSection(SolutionItems) = preProject
+		Slack\Models\Json\auth.json = Slack\Models\Json\auth.json
+		Slack\Models\Json\channels-history.json = Slack\Models\Json\channels-history.json
+		Slack\Models\Json\channels-info.json = Slack\Models\Json\channels-info.json
+		Slack\Models\Json\channels.json = Slack\Models\Json\channels.json
+		Slack\Models\Json\emoji.json = Slack\Models\Json\emoji.json
+		Slack\Models\Json\im-history.json = Slack\Models\Json\im-history.json
+		Slack\Models\Json\im.json = Slack\Models\Json\im.json
+		Slack\Models\Json\users.json = Slack\Models\Json\users.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|ARM.Build.0 = Debug|ARM
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|x86.ActiveCfg = Debug|x86
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|x86.Build.0 = Debug|x86
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Debug|x86.Deploy.0 = Debug|x86
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|ARM.ActiveCfg = Release|ARM
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|ARM.Build.0 = Release|ARM
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|ARM.Deploy.0 = Release|ARM
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|x86.ActiveCfg = Release|x86
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|x86.Build.0 = Release|x86
+		{1D694A06-823F-4CD0-8F42-CBC6A9D21E92}.Release|x86.Deploy.0 = Release|x86
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Release|ARM.ActiveCfg = Release|Any CPU
+		{BC7F5910-007D-40F7-9191-57EA956B7939}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{873E301C-CE5A-4908-9EAE-A3A990207233} = {70DFA8AA-285E-4A29-A51D-4A93E02E253A}
+	EndGlobalSection
+EndGlobal

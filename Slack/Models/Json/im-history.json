@@ -1,0 +1,704 @@
+{
+    "ok": true,
+    "messages": [
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "whoah - I like the inline editing of Program name.",
+            "ts": "1409184273.000111"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "yeah, every single module component could be in it's own file",
+            "ts": "1409183464.000110"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "right. if we declare them upfront, we could segregate the controllers",
+            "ts": "1409183444.000109"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I also think our modules are too granular",
+            "ts": "1409183437.000108"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "the problem now is that modules are built inline so everything in the module has to be in the same file",
+            "ts": "1409183419.000107"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I think my proposed solution addresses that",
+            "ts": "1409183383.000106"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "it is getting a bit out of hand. for all our talk of refactoring to keep methods small and lean, our js is just.... ugh.",
+            "ts": "1409182046.000105"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "can we declare the controllers in separate js files maybe? i've been mulling it over.",
+            "ts": "1409182005.000104"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "ok. cool",
+            "ts": "1409181991.000103"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "an email",
+            "ts": "1409181987.000102"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I have an idea on how to clean up the larger js files. I'll put it in anemail",
+            "ts": "1409181984.000101"
+        },
+        {
+            "text": "Ok",
+            "username": "Kevin Noone (bot)",
+            "type": "message",
+            "subtype": "bot_message",
+            "ts": "1409180046.000100"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "i just pushed a stable version that i plan to refactor.",
+            "ts": "1409179851.000099"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "ok",
+            "ts": "1409179833.000098"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "so take your time",
+            "ts": "1409179692.000097"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "np",
+            "ts": "1409179690.000096"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I'm going to wfh for the rest of the day, so I'll be offline for a bit",
+            "ts": "1409179683.000095"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "let me clean up real quick and push so we don't have to merge.",
+            "ts": "1409179624.000094"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "but I'll hold off in case you re-org it or something",
+            "ts": "1409179591.000093"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I was about to add a spinner for it",
+            "ts": "1409179569.000092"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "yeah I was just looking at patients.js - that's kind of why I pinged you",
+            "ts": "1409179560.000091"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "in case admin-users has too much clutter",
+            "ts": "1409179538.000090"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "ok. i'll look at that. patients.js is a bit too bloated. not sure if there's a better way.",
+            "ts": "1409179535.000089"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "admin-groups is simpler",
+            "ts": "1409179510.000088"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "yeah I think we got copy\/paste happy at some point",
+            "ts": "1409179478.000087"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "i'm poring through the admin-users.js to see how you did it right now.",
+            "ts": "1409179469.000086"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "i like well-organized code. yeah. just the success",
+            "ts": "1409179452.000085"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "what alert are you passing to the parent?  sucess message?",
+            "ts": "1409179445.000084"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok",
+            "ts": "1409179416.000083"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "it's not important right now - I just thought I'd throw it out there",
+            "ts": "1409179405.000082"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "ah. yes. i'm actually transitioning to that now that i've got error messages working. still have to figure out how to pass an alert to the parent scope. that's later.",
+            "ts": "1409179391.000081"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I mean like not declaring the controller as a local variable - but make it a real controller (see admin-group.js)",
+            "ts": "1409179366.000080"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "where it's not a local variable?",
+            "ts": "1409179351.000079"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "?",
+            "ts": "1409179344.000078"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "or do you mean in its own declared controller",
+            "ts": "1409179344.000077"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "you mean using the $scope of the controller that opened it?",
+            "ts": "1409179326.000076"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "although a lot of our existing code decalres the controller locally - so either way",
+            "ts": "1409179306.000075"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "outside?",
+            "ts": "1409179288.000074"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "this is up to you, but when working with modals, I prefer to have the controller for the modal outside of the calling controller (if that makes sense)",
+            "ts": "1409179273.000073"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok",
+            "ts": "1409170860.000072"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "yeah, or ryan",
+            "ts": "1409170858.000071"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "Ryan",
+            "ts": "1409170843.000070"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "the documentation fix will depend on whatever coop needs. it can even be done in tandem with his work.",
+            "ts": "1409170836.000069"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "for Coop or ..",
+            "ts": "1409170833.000068"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "yeah - I agree the others could be pushed out",
+            "ts": "1409170816.000067"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "fixing var config replacement should be done before coop gets involved",
+            "ts": "1409170799.000066"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "documentation, cleanup, fix config var replacement",
+            "ts": "1409170777.000065"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "i'd prefer to work on front end this sprint. what's left in octopus? we might be able to put it off until we have a Kryptiq Azure subscription and Coop starts working on setting up the environments in production.",
+            "ts": "1409170736.000064"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "do you want me to grab all of the Octopus related tasks? or did you have a desire to work on those?",
+            "ts": "1409170679.000063"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "you're still a bot?",
+            "ts": "1409012380.000062"
+        },
+        {
+            "text": "Testing direct message...",
+            "username": "Kevin Noone (bot)",
+            "type": "message",
+            "subtype": "bot_message",
+            "ts": "1409010805.000061"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "<http:\/\/blebeck-desk2.kryptiq.com\/reg3\/>",
+            "ts": "1407522116.000060"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "the one on Brian's server",
+            "ts": "1407522114.000059"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "hey, what's that CareManager URL?",
+            "ts": "1407522102.000058"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "\"WHY THE FUCK ISN'T THIS WORKING!!!???\"",
+            "ts": "1407519541.000057"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "deployment was like that at times.",
+            "ts": "1407519528.000056"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "right",
+            "ts": "1407519520.000055"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "#@$%!",
+            "ts": "1407519517.000054"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "frustrating, ain't it?",
+            "ts": "1407519508.000053"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok",
+            "ts": "1407519213.000052"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "just in case i missed something",
+            "ts": "1407519207.000051"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "you're welcome to also.",
+            "ts": "1407519202.000050"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "i've tried leaving it blank or just using build or just <mailto:build@kryptiq.com|build@kryptiq.com>",
+            "ts": "1407519195.000049"
+        },
+        {
+            "type": "message",
+            "subtype": "file_share",
+            "text": "<@U02BXBHSQ|knoone> uploaded a file: <https:\/\/caremanager.slack.com\/files\/knoone\/F02FF0CCB\/pasted_image_at_2014_08_08_10_32_am.png|Pasted image at 2014-08-08, 10:32 AM>",
+            "file": {
+                "id": "F02FF0CCB",
+                "timestamp": 1407519179,
+                "name": "Pasted image at 2014_08_08 10_32 AM.png",
+                "title": "Pasted image at 2014-08-08, 10:32 AM",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U02BXBHSQ",
+                "editable": false,
+                "size": 4786,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "url": "https:\/\/slack-files.com\/files-pub\/T02BW4SSS-F02FF0CCB-04cb67\/pasted_image_at_2014_08_08_10_32_am.png",
+                "url_download": "https:\/\/slack-files.com\/files-pub\/T02BW4SSS-F02FF0CCB-04cb67\/download\/pasted_image_at_2014_08_08_10_32_am.png",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T02BW4SSS-F02FF0CCB\/pasted_image_at_2014_08_08_10_32_am.png",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T02BW4SSS-F02FF0CCB\/download\/pasted_image_at_2014_08_08_10_32_am.png",
+                "thumb_64": "https:\/\/slack-files.com\/files-tmb\/T02BW4SSS-F02FF0CCB-cb4352\/pasted_image_at_2014_08_08_10_32_am_64.png",
+                "thumb_80": "https:\/\/slack-files.com\/files-tmb\/T02BW4SSS-F02FF0CCB-cb4352\/pasted_image_at_2014_08_08_10_32_am_80.png",
+                "thumb_360": "https:\/\/slack-files.com\/files-tmb\/T02BW4SSS-F02FF0CCB-cb4352\/pasted_image_at_2014_08_08_10_32_am_360.png",
+                "thumb_360_w": 360,
+                "thumb_360_h": 40,
+                "image_exif_rotation": 1,
+                "permalink": "https:\/\/caremanager.slack.com\/files\/knoone\/F02FF0CCB\/pasted_image_at_2014_08_08_10_32_am.png",
+                "permalink_public": "https:\/\/slack-files.com\/T02BW4SSS-F02FF0CCB-04cb67",
+                "channels": [],
+                "groups": [],
+                "ims": [
+                    "D02BXEQT8"
+                ],
+                "comments_count": 0
+            },
+            "user": "U02BXBHSQ",
+            "upload": true,
+            "ts": "1407519180.000048"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "what about chaning this:",
+            "ts": "1407519175.000047"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "\"",
+            "ts": "1407519010.000046"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "i mean \"build &lt;build@kryptiq.com&gt;",
+            "ts": "1407519005.000045"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "even though the user configured for VCS root is \"build &lt;build@kryptiq.com\", the hg standard way of referring to users",
+            "ts": "1407518995.000044"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "right",
+            "ts": "1407518965.000043"
+        },
+        {
+            "message": {
+                "type": "message",
+                "user": "U02BXEQSN",
+                "text": "should be <http:\/\/build@kryptiq.com:bugz.kryptiq.com> (escaped of course)",
+                "attachments": [
+                    {
+                        "text": "Kryptiq develops market-leading population health and patient relationship management solutions for physician practices and IDNs.",
+                        "fallback": "Kryptiq develops market-leading population health and patient relationship management solutions for physician practices and IDNs.",
+                        "from_url": "http:\/\/build@kryptiq.com:bugz.kryptiq.com",
+                        "id": 1
+                    }
+                ],
+                "ts": "1407518954.000041"
+            },
+            "type": "message",
+            "subtype": "message_changed",
+            "hidden": true,
+            "ts": "1407518960.000042"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "should be <http:\/\/build@kryptiq.com:bugz.kryptiq.com> (escaped of course)",
+            "attachments": [
+                {
+                    "text": "Kryptiq develops market-leading population health and patient relationship management solutions for physician practices and IDNs.",
+                    "fallback": "Kryptiq develops market-leading population health and patient relationship management solutions for physician practices and IDNs.",
+                    "from_url": "http:\/\/build@kryptiq.com:bugz.kryptiq.com",
+                    "id": 1
+                }
+            ],
+            "ts": "1407518954.000041"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "but also notice how the hg command uses \"auth.tc.username=build\", and doesn't include <mailto:build@kryptiq.com|build@kryptiq.com> in the push url?",
+            "ts": "1407518916.000040"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok I see",
+            "ts": "1407518889.000039"
+        },
+        {
+            "type": "message",
+            "subtype": "file_share",
+            "text": "<@U02BXEQSN|lutskovp> uploaded a file: <https:\/\/caremanager.slack.com\/files\/lutskovp\/F02FEV7E3\/pasted_image_at_2014_08_08_10_27_am.png|Pasted image at 2014-08-08, 10:27 AM>",
+            "file": {
+                "id": "F02FEV7E3",
+                "timestamp": 1407518843,
+                "name": "Pasted image at 2014_08_08 10_27 AM.png",
+                "title": "Pasted image at 2014-08-08, 10:27 AM",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U02BXEQSN",
+                "editable": false,
+                "size": 36874,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "url": "https:\/\/slack-files.com\/files-pub\/T02BW4SSS-F02FEV7E3-35014a\/pasted_image_at_2014_08_08_10_27_am.png",
+                "url_download": "https:\/\/slack-files.com\/files-pub\/T02BW4SSS-F02FEV7E3-35014a\/download\/pasted_image_at_2014_08_08_10_27_am.png",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T02BW4SSS-F02FEV7E3\/pasted_image_at_2014_08_08_10_27_am.png",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T02BW4SSS-F02FEV7E3\/download\/pasted_image_at_2014_08_08_10_27_am.png",
+                "thumb_64": "https:\/\/slack-files.com\/files-tmb\/T02BW4SSS-F02FEV7E3-e21572\/pasted_image_at_2014_08_08_10_27_am_64.png",
+                "thumb_80": "https:\/\/slack-files.com\/files-tmb\/T02BW4SSS-F02FEV7E3-e21572\/pasted_image_at_2014_08_08_10_27_am_80.png",
+                "thumb_360": "https:\/\/slack-files.com\/files-tmb\/T02BW4SSS-F02FEV7E3-e21572\/pasted_image_at_2014_08_08_10_27_am_360.png",
+                "thumb_360_w": 322,
+                "thumb_360_h": 360,
+                "image_exif_rotation": 1,
+                "permalink": "https:\/\/caremanager.slack.com\/files\/lutskovp\/F02FEV7E3\/pasted_image_at_2014_08_08_10_27_am.png",
+                "permalink_public": "https:\/\/slack-files.com\/T02BW4SSS-F02FEV7E3-35014a",
+                "channels": [],
+                "groups": [],
+                "ims": [
+                    "D02BXEQT8"
+                ],
+                "comments_count": 0
+            },
+            "user": "U02BXEQSN",
+            "upload": true,
+            "ts": "1407518845.000038"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I don't see it",
+            "ts": "1407518777.000037"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "didn't help",
+            "ts": "1407518762.000036"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "already done.",
+            "ts": "1407518759.000035"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "do we have to add the \"build\" user as a Hg user with Modify permissions?",
+            "ts": "1407518750.000034"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "nope",
+            "ts": "1407518533.000033"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "very slight",
+            "ts": "1407518439.000032"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "there's one slight chance that it might work.",
+            "ts": "1407518432.000031"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "although...",
+            "ts": "1407518423.000030"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "hence all the failure emails you got yesterday",
+            "ts": "1407518416.000029"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "we can't do that either",
+            "ts": "1407518405.000028"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "but...",
+            "ts": "1407518402.000027"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "oh, well that's not so bad",
+            "ts": "1407518273.000026"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "the manual tag way is to go to the build results and click on the Actions dropdown and select \"label this build sources...\"",
+            "ts": "1407518220.000025"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok",
+            "ts": "1407518163.000024"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "so you won't find it in config",
+            "ts": "1407518132.000023"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "Network Relay. they manually tag. not auto-tag",
+            "ts": "1407518124.000022"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "Which project of Randy's were you looking at for reference?",
+            "ts": "1407518107.000021"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "about that same exact thing",
+            "ts": "1407517999.000020"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "i was just typing an email to the SMP team",
+            "ts": "1407517992.000019"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "cool",
+            "ts": "1407517978.000018"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "\\\\pdxfile1\\shared\\Marketing\\Corporate Assets",
+            "ts": "1407517971.000017"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I can give it a shot",
+            "ts": "1407517686.000016"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "sure. bad timing. just started vs upgrade.",
+            "ts": "1407517676.000015"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "Jim wants to take screen shots on Monday for a persentation - this is why",
+            "ts": "1407517665.000014"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "ok, i'll get it done.",
+            "ts": "1407517644.000013"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "oh, yes",
+            "ts": "1407517625.000012"
+        }
+    ],
+    "has_more": true
+}

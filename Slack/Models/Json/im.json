@@ -1,0 +1,101 @@
+{
+    "ok": true,
+    "ims": [
+        {
+            "id": "D02BXBHSS",
+            "user": "USLACKBOT",
+            "created": 1403194354,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02BXBHSU",
+            "user": "U02BW4SSU",
+            "created": 1403194354,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02BXCMEJ",
+            "user": "U02BXCMEC",
+            "created": 1403195157,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02BXEQT8",
+            "user": "U02BXEQSN",
+            "created": 1403196688,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02C74ZJT",
+            "user": "U02C74ZJH",
+            "created": 1403658412,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DGUJ5M",
+            "user": "U02DGUJ57",
+            "created": 1405405779,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DJ4R6V",
+            "user": "U02DJ4R57",
+            "created": 1405439229,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DJ5MB9",
+            "user": "U02DJ5MAR",
+            "created": 1405439767,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DJGP4E",
+            "user": "U02DJGP3W",
+            "created": 1405426587,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DJLR6W",
+            "user": "U02DJLR6J",
+            "created": 1405430387,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DJPMTS",
+            "user": "U02DJPMT8",
+            "created": 1405432597,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DJQ8HY",
+            "user": "U02DJQ8HL",
+            "created": 1405433019,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DJUZ9Q",
+            "user": "U02DJUZ8Y",
+            "created": 1405436027,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DK0R8N",
+            "user": "U02DK0R78",
+            "created": 1405436713,
+            "is_user_deleted": false
+        },
+        {
+            "id": "D02DK76JS",
+            "user": "U02DK76JJ",
+            "created": 1405440518,
+            "is_user_deleted": true
+        },
+        {
+            "id": "D02E63G0A",
+            "user": "U02E63FUC",
+            "created": 1406140946,
+            "is_user_deleted": false
+        }
+    ]
+}

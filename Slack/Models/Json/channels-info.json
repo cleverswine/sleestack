@@ -1,0 +1,38 @@
+{
+    "ok": true,
+    "channel": {
+        "id": "C02BW4SUN",
+        "name": "cwm",
+        "created": 1403153389,
+        "creator": "U02BW4SSU",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U02BW4SSU",
+            "U02BXBHSQ",
+            "U02BXCMEC",
+            "U02BXEQSN",
+            "U02C74ZJH",
+            "U02DJ4R57"
+        ],
+        "is_member": true,
+        "last_read": "1409356043.000982",
+        "latest": {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "understandeable. and this has been a fun project in many ways",
+            "ts": "1409356043.000982"
+        },
+        "unread_count": 0,
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Central Worklist Manager Discussion",
+            "creator": "U02BW4SSU",
+            "last_set": "1403153389"
+        }
+    }
+}

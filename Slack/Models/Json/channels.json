@@ -1,0 +1,251 @@
+{
+    "ok": true,
+    "channels": [
+        {
+            "id": "C02C00P09",
+            "name": "builds",
+            "created": 1403298696,
+            "creator": "U02BXEQSN",
+            "is_archived": false,
+            "is_general": false,
+            "members": [
+                "U02BW4SSU",
+                "U02BXBHSQ",
+                "U02BXEQSN",
+                "U02DJ2D4K"
+            ],
+            "is_member": true,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": "0"
+            },
+            "purpose": {
+                "value": "Build notifications",
+                "creator": "U02BXEQSN",
+                "last_set": "1403298696"
+            },
+            "num_members": 4
+        },
+        {
+            "id": "C02DGNKQ1",
+            "name": "caremanager",
+            "created": 1405395507,
+            "creator": "U02BW4SSU",
+            "is_archived": false,
+            "is_general": false,
+            "members": [
+                "U02BW4SSU",
+                "U02DGUJ57",
+                "U02DJ2D4K",
+                "U02DJ4R57",
+                "U02DJ5MAR",
+                "U02DJDKB9",
+                "U02DJGP3W",
+                "U02DJLR6J",
+                "U02DJPMT8",
+                "U02DJQ8HL",
+                "U02DK0R78",
+                "U02DK76JJ",
+                "U02FF1XNZ"
+            ],
+            "is_member": false,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": "0"
+            },
+            "purpose": {
+                "value": "Care Manager Chat",
+                "creator": "U02BW4SSU",
+                "last_set": "1405395508"
+            },
+            "num_members": 12
+        },
+        {
+            "id": "C02BW4SUN",
+            "name": "cwm",
+            "created": 1403153389,
+            "creator": "U02BW4SSU",
+            "is_archived": false,
+            "is_general": false,
+            "members": [
+                "U02BW4SSU",
+                "U02BXBHSQ",
+                "U02BXCMEC",
+                "U02BXEQSN",
+                "U02C74ZJH",
+                "U02DJ4R57"
+            ],
+            "is_member": true,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": "0"
+            },
+            "purpose": {
+                "value": "Central Worklist Manager Discussion",
+                "creator": "U02BW4SSU",
+                "last_set": "1403153389"
+            },
+            "num_members": 6
+        },
+        {
+            "id": "C02C6F8HC",
+            "name": "dsp",
+            "created": 1403623823,
+            "creator": "U02BW4SSU",
+            "is_archived": false,
+            "is_general": false,
+            "members": [
+                "U02BW4SSU",
+                "U02C74ZJH"
+            ],
+            "is_member": false,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": "0"
+            },
+            "purpose": {
+                "value": "Docusign for Patients",
+                "creator": "U02BW4SSU",
+                "last_set": "1403623824"
+            },
+            "num_members": 2
+        },
+        {
+            "id": "C02BXCV62",
+            "name": "engineering",
+            "created": 1403195324,
+            "creator": "U02BW4SSU",
+            "is_archived": false,
+            "is_general": false,
+            "members": [
+                "U02BW4SSU",
+                "U02BXBHSQ",
+                "U02BXCMEC",
+                "U02BXEQSN",
+                "U02DGUJ57",
+                "U02DJGP3W",
+                "U02FF1XNZ"
+            ],
+            "is_member": true,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": "0"
+            },
+            "purpose": {
+                "value": "General Engineering Chat",
+                "creator": "U02BW4SSU",
+                "last_set": "1403195342"
+            },
+            "num_members": 7
+        },
+        {
+            "id": "C02BW4ST0",
+            "name": "general",
+            "created": 1403153361,
+            "creator": "U02BW4SSU",
+            "is_archived": false,
+            "is_general": true,
+            "members": [
+                "U02BW4SSU",
+                "U02BXBHSQ",
+                "U02BXCMEC",
+                "U02BXEQSN",
+                "U02C74ZJH",
+                "U02DGUJ57",
+                "U02DJ2D4K",
+                "U02DJ4R57",
+                "U02DJ5MAR",
+                "U02DJDKB9",
+                "U02DJGP3W",
+                "U02DJLR6J",
+                "U02DJPMT8",
+                "U02DJQ8HL",
+                "U02DJUZ8Y",
+                "U02DK0R78",
+                "U02DK2JCW",
+                "U02DK37N6",
+                "U02DK76JJ",
+                "U02E63FUC",
+                "U02FF1XNZ"
+            ],
+            "is_member": true,
+            "topic": {
+                "value": "",
+                "creator": "U02DJDKB9",
+                "last_set": "1405620201"
+            },
+            "purpose": {
+                "value": "This channel is for team-wide communication and announcements. All team members are in this channel.",
+                "creator": "U02BW4SSU",
+                "last_set": "1403195312"
+            },
+            "num_members": 20
+        },
+        {
+            "id": "C02DGNKQ5",
+            "name": "qa",
+            "created": 1405395515,
+            "creator": "U02BW4SSU",
+            "is_archived": false,
+            "is_general": false,
+            "members": [
+                "U02BW4SSU",
+                "U02DJ5MAR",
+                "U02DJLR6J",
+                "U02FF1XNZ"
+            ],
+            "is_member": false,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": "0"
+            },
+            "purpose": {
+                "value": "QA-specific chat",
+                "creator": "U02BW4SSU",
+                "last_set": "1405395516"
+            },
+            "num_members": 4
+        },
+        {
+            "id": "C02BW4ST2",
+            "name": "random",
+            "created": 1403153361,
+            "creator": "U02BW4SSU",
+            "is_archived": false,
+            "is_general": false,
+            "members": [
+                "U02BW4SSU",
+                "U02BXBHSQ",
+                "U02BXCMEC",
+                "U02BXEQSN",
+                "U02C74ZJH",
+                "U02DGUJ57",
+                "U02DJ4R57",
+                "U02DJLR6J",
+                "U02DJUZ8Y",
+                "U02DK2JCW",
+                "U02DK37N6",
+                "U02E63FUC",
+                "U02FF1XNZ"
+            ],
+            "is_member": true,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": "0"
+            },
+            "purpose": {
+                "value": "A place for non-work banter, links, articles of interest, humor or anything else which you'd like concentrated in some place other than work-related channels.",
+                "creator": "",
+                "last_set": "0"
+            },
+            "num_members": 13
+        }
+    ]
+}

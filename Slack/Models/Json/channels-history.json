@@ -1,0 +1,621 @@
+{
+    "ok": true,
+    "messages": [
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "understandeable. and this has been a fun project in many ways",
+            "ts": "1409356043.000982"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "deploy tonight if you want. and, it is, but sometimes I get bored in the evenings",
+            "ts": "1409356010.000981"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "I thought this was a vacation day for you! :grinning:",
+            "ts": "1409355948.000980"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "i'll wait until tomorrow to deploy again",
+            "ts": "1409355942.000979"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "I'll try to finish edit patient work tonight",
+            "ts": "1409355905.000978"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "cool",
+            "ts": "1409355546.000977"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "I might check something in by 5 but then I'm done for the weekend",
+            "ts": "1409355489.000976"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok",
+            "ts": "1409355467.000975"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "I dont really. I'm starting on the UI for adding reminders but is early stages...",
+            "ts": "1409355462.000974"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "so if you have cool stuff ready, push it",
+            "ts": "1409355430.000973"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "k, sounds good",
+            "ts": "1409355426.000972"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "after a bit more smoke testing of minified js",
+            "ts": "1409355415.000971"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I'll probably do another deployment at some point today",
+            "ts": "1409355401.000970"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "np",
+            "ts": "1409355375.000969"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "yes, that's helpful too.  thx again for the recommendation",
+            "ts": "1409355365.000968"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "they at least get the mail and stuff",
+            "ts": "1409355340.000967"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "if we were gone longer we might consider that",
+            "ts": "1409355317.000966"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "right, she said they'd do that too",
+            "ts": "1409355279.000965"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "cool. The other nice thing is they double as a house sitter",
+            "ts": "1409355268.000964"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "Versus asking friends to help",
+            "ts": "1409355261.000963"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "We just finished meeting with the cat-sitter. Not the one you have but someone referred. Pretty impressed with her. It's the way to go.",
+            "ts": "1409355239.000962"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "in the deployed versions",
+            "ts": "1409355082.000961"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I'm actually suprised we haven't run into browser caching issues",
+            "ts": "1409355074.000960"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "it will be good to have this because MVC generates a \"cache-buster\" with each build so the client doesn't cache old vesions of js or css",
+            "ts": "1409355055.000959"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "lots of trial and error - I'm not positive that that was the only issue...",
+            "ts": "1409354988.000958"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "another thing about JS, no compiler to warn you",
+            "ts": "1409354954.000957"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "easy to forget I meant",
+            "ts": "1409354934.000956"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "I knew that that always had to be done but when you're coding it might be easy to do (on a local controller)",
+            "ts": "1409354926.000955"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I'm not pushing it to azure yet, as I'm a little brain-fried and didn't test thoroughly",
+            "ts": "1409354902.000954"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "yep. good catch",
+            "ts": "1409354893.000953"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "right, that makes sense. Good work in fixing that",
+            "ts": "1409354870.000952"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "minification seems to be working now. key was on local controllers, such as var controller = function(..), you have to set the injection string params, like var controller = ['...', function(...){}]",
+            "ts": "1409354826.000951"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "I talked to Jim just now and got clarification on the spawn-remidner when patient added. I'll work on that rest of day. I'm WAH rest of day. Walking home so offline for 1\/2 hour",
+            "ts": "1409345970.000950"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "right, I'm just saying that for now one could just run the reset-db part, then do the rest by signing up through the ui. either way's fine it seems",
+            "ts": "1409345753.000949"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "it does reset-db, sign up, seed data",
+            "ts": "1409345583.000948"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "the script does sign up too - by opening a IE window...",
+            "ts": "1409345539.000947"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "the script for the db reset is nice",
+            "ts": "1409345019.000946"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "but the scripts are important too - for future automation work",
+            "ts": "1409344997.000945"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "easier to just do signup from the ui. easy enough to explain to someone new to the team",
+            "ts": "1409344978.000944"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "but it's a start",
+            "ts": "1409344921.000943"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "well it's funky in that you have to stop the API to do a db reset, and then start it back up to continue with the rest of the script",
+            "ts": "1409344903.000942"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "I like scripts. thank you. I find onboard scripts easier for introducing new devs to the team. they won't need to know the app",
+            "ts": "1409344841.000941"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "sure, would be good for ryan to pick up",
+            "ts": "1409344839.000940"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "maybe it's something Ryan and\/or Keith can use as a starting point",
+            "ts": "1409344813.000939"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "thx",
+            "ts": "1409344782.000938"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "k",
+            "ts": "1409344779.000937"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "our dev bootstrap script works again. I'm not sure it's any easier than putting stuff in the UI, but it's there.",
+            "ts": "1409344743.000936"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "k",
+            "ts": "1409334894.000935"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "anyway, I'm going to deploy the unminified version for Keith first",
+            "ts": "1409334887.000934"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "yeah it means on of the modules is failing (exception or DI issue) and can't be injected into the app module - according to the doc",
+            "ts": "1409334836.000933"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "i guess yes question is where",
+            "ts": "1409334818.000932"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "very helpful :grinning: but does it suggest that the issue is in a provider section somehwere?",
+            "ts": "1409334771.000931"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "'unknown provider' is all I'm getting at this point",
+            "ts": "1409334735.000930"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "yeah sometimes they are vague. sometimes they're great though.",
+            "ts": "1409334709.000929"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "the angular error messages are so vague. I'm going to make one more sweep through the code and eyeball it",
+            "ts": "1409334675.000928"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "k",
+            "ts": "1409334638.000927"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I robably won't spend more than about 30 more minutes on that",
+            "ts": "1409334630.000926"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "yes - I found 2 places where we forgot, but that didn't fix it",
+            "ts": "1409334602.000925"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "if we have places where we forgot to do that it'd be an issue",
+            "ts": "1409334535.000924"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "on the angular minificaiton, it occurred to me that that is why it's importnat to have the DI items in the square brackets in quotes. Otherwise when minification happens you're screwed",
+            "ts": "1409334524.000923"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "i vaguely remembered somehting in a mtg",
+            "ts": "1409334463.000922"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I don't recall JC talking about the UI for that",
+            "ts": "1409334445.000921"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "thx",
+            "ts": "1409334425.000920"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I'll fetch before doing another deployment",
+            "ts": "1409334420.000919"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "or do u remember any discussion on what he wanted the ui to look like on that?",
+            "ts": "1409334145.000918"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "do u know if JC is in the office today. I'd like to talk with him about the UI he'd like for the create-action reminder from PLF...",
+            "ts": "1409334097.000917"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "btw, I made a change re. CSS re. the program rename functionality. would be nice if it got in the build that gets pushed. if not, no big deal",
+            "ts": "1409333920.000916"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "sounds reasonable",
+            "ts": "1409333447.000915"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I'll definitely get the stuff done for Keith - but if I have time leftover I'd really like to solve this",
+            "ts": "1409333432.000914"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "i know - but to pavel's point yesterday, the actual delta in performance is going to be hardly noticeable for beta. Later it will be more importnat. Personally, I think getting the scripts ready for Keith is more importnat",
+            "ts": "1409333343.000913"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "I'll spend today on it",
+            "ts": "1409333277.000912"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "maybe, but I hate to deploy it unoptimized...",
+            "ts": "1409333266.000911"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "so maybe kick this issue out post beta to solve",
+            "ts": "1409333224.000910"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "lesson learned, we should have tested minification early on, knowing that angular is sensitive to it",
+            "ts": "1409333190.000909"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "another issue - looks like the minified anguular code has some issues. I'm getting DI errors. I'll do local minification and figure it out.",
+            "ts": "1409331603.000908"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "I mean: \"I'm taking a vacation day and not paying attention to work\"",
+            "ts": "1409331568.000907"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "I ran into that yesterday when explicitly setting  optimizations to true",
+            "ts": "1409331531.000906"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "good news on the bundling. good to fix these issues now",
+            "ts": "1409331337.000905"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "(at least I think that was the issue)",
+            "ts": "1409331248.000904"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "good news is the bundling\/minification is working. bad is that our css bundle name conflicted with an actual directory name (Content\/css). Fixing now and redploying.",
+            "ts": "1409331204.000903"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "will do",
+            "ts": "1409330008.000902"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "sounds good. might be a good idea to blow away db completely",
+            "ts": "1409329999.000901"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "beginning deployment to sandbox\/QA (cwmweb)",
+            "ts": "1409329972.000900"
+        },
+        {
+            "text": "<http:\/\/status.azure.com|Websites - East US - Advisory>\nStarting at 15:00 UTC on 8\/28\/2014 a subset of Websites customers with MYSQL DB hosted by ClearDB may see intermittent or full loss of connectivity. Restarting the website may help mitigate the issue for some customers. The ClearDB and websites teams are engaged in troubleshooting. Next update will be provided in two hours.",
+            "username": "Azure Status for Websites",
+            "icons": {
+                "image_48": "https:\/\/slack.global.ssl.fastly.net\/20653\/img\/services\/rss_48.png"
+            },
+            "bot_id": "B02BYQWP4",
+            "type": "message",
+            "subtype": "bot_message",
+            "ts": "1409271606.000899"
+        },
+        {
+            "text": "<http:\/\/status.azure.com|Websites - East US - Advisory>\nStarting at 15:00 UTC on 8\/28\/2014 a subset of Websites customers with MYSQL DB hosted by ClearDB may see intermittent or full loss of connectivity. Restarting the website may help mitigate the issue for some customers. We are investigating. Next update will be provided in two hours.",
+            "username": "Azure Status for Websites",
+            "icons": {
+                "image_48": "https:\/\/slack.global.ssl.fastly.net\/20653\/img\/services\/rss_48.png"
+            },
+            "bot_id": "B02BYQWP4",
+            "type": "message",
+            "subtype": "bot_message",
+            "ts": "1409265846.000898"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "you can think of where we're going.",
+            "ts": "1409263627.000897"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "good.",
+            "ts": "1409263621.000896"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok - no hurry, I just happened to arrive at a stopping point",
+            "ts": "1409263617.000895"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "yeah. pretty much.",
+            "ts": "1409263617.000894"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "same here - another 5-10 min?",
+            "ts": "1409263613.000893"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "yeah. almost. just trying to clean something up.",
+            "ts": "1409263595.000892"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "anyone near ready for dev sync?",
+            "ts": "1409263586.000891"
+        },
+        {
+            "text": "<http:\/\/status.azure.com|Websites - East US - Advisory>\nAn alert for Websites in East US is being investigated.  Starting at 15:00 UTC on 8\/28\/2014 a subset of Websites customers with MYSQL DB hosted by ClearDB may see intermittent or full loss of connectivity. Next update will be provided in 60 minutes.",
+            "username": "Azure Status for Websites",
+            "icons": {
+                "image_48": "https:\/\/slack.global.ssl.fastly.net\/20653\/img\/services\/rss_48.png"
+            },
+            "bot_id": "B02BYQWP4",
+            "type": "message",
+            "subtype": "bot_message",
+            "ts": "1409260197.000890"
+        },
+        {
+            "type": "message",
+            "user": "U02BXBHSQ",
+            "text": "ok",
+            "ts": "1409258200.000889"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "ok",
+            "ts": "1409258169.000888"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "Also :grinning: note that on Reminders the time component is lost in the UI. This is not due to any time conversion issue but b\/c on the server we currently truncate the time component on a reminder due date. We're not supporting times in Reminders now so that shouldnt be an issue for beta. In the future when we support reminder times it will be. At that point we'll have to address some subtlties in LInQ with EF that caused me to truncate the time component with reminders...",
+            "ts": "1409258143.000887"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "np",
+            "ts": "1409257945.000886"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "thanks for digging through this.",
+            "ts": "1409257938.000885"
+        },
+        {
+            "type": "message",
+            "user": "U02BXEQSN",
+            "text": "ok",
+            "ts": "1409257933.000884"
+        },
+        {
+            "type": "message",
+            "user": "U02BXCMEC",
+            "text": "footnote to this - I found that the angular date filter does not interpret the date\/times from the server as UTC. sigh... Also by experimenting on jsfiddle I saw that earlier versions of angular *did* interpret it as UTC. Current official angular documenation says that sans Z or time zone info it will be interpreted as local. So I will keep the utcToLocal filter around. Remember to use it as a filter preceding the angular Date filter when displaying date\/times from our server code",
+            "ts": "1409257914.000883"
+        }
+    ],
+    "has_more": true
+}
